@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_photo_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="?android:selectableItemBackground"
+    android:padding="@dimen/story_child_padding">
+
+    <ImageView
+        android:id="@+id/story_photo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/story_photo_description" />
+
+    <TextView
+        android:id="@+id/story_photo_credit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal|bottom|center"
+        android:background="@color/story_photo_credit_background_color"
+        android:ellipsize="end"
+        android:minHeight="@dimen/story_photo_credit_height"
+        android:padding="@dimen/story_photo_credit_padding"
+        android:singleLine="true"
+        android:textAppearance="@style/StoryPhotoCreditTextAppearance" />
+</FrameLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".composer.ComposerFragment">
+
+    <com.haiyunshan.zima.composer.widget.RecyclerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/composer_list_view"
+            style="@style/ComposerListStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?actionBarSize"
+            android:layout_marginBottom="@dimen/composer_bottom_bar_size"
+            android:paddingBottom="@dimen/composer_list_view_padding_bottom"
+            android:paddingTop="@dimen/composer_list_view_padding_top"
+            android:transitionName="sharedView">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </com.haiyunshan.zima.composer.widget.RecyclerLayout>
+
+    <!-- Toolbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/composer_toolbar"
+            style="@style/ToolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/primary_color"
+            android:theme="@style/EditorToolbarTheme"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        </android.support.v7.widget.Toolbar>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_shadow_height"
+            android:background="@drawable/editor_toolbar_gradient" />
+    </LinearLayout>
+
+    <!-- Bottom Sheet -->
+
+    <fragment
+        android:id="@+id/composer_bottom_sheet_fragment"
+        class="com.haiyunshan.zima.composer.BottomSheetFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+    <!-- Bottom Bar -->
+
+    <LinearLayout
+        android:id="@+id/composer_bottom_bar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/bottom_sheet_hightlight_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/composer_bottom_bar_size"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bs_add_button"
+                style="@style/BottomSheetAddButtonStyle"
+                android:src="@drawable/ic_add_box_black" />
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"></FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv_save"
+                style="@style/BottomSheetActionButtonStyle"
+                android:src="@drawable/ic_note_action_24dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

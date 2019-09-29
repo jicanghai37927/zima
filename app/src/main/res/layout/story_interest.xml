@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story_interest_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:minHeight="@dimen/touch_target_min_size"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/story_child_padding"
+    android:paddingRight="@dimen/story_child_padding">
+
+    <ImageButton
+        android:id="@+id/story_interest_positive"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/interest_action_positive"
+        android:minHeight="@dimen/touch_target_min_size"
+        android:minWidth="@dimen/touch_target_min_size"
+        android:padding="@dimen/story_padding"
+        android:src="@drawable/ic_thumb_up_white_24dp"
+         />
+
+    <ImageButton
+        android:id="@+id/story_interest_negative"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="@string/interest_action_negative"
+        android:minHeight="@dimen/touch_target_min_size"
+        android:minWidth="@dimen/touch_target_min_size"
+        android:padding="@dimen/story_padding"
+        android:src="@drawable/ic_thumb_down_white_24dp" />
+
+    <TextView
+        android:id="@+id/story_interest_text"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:gravity="start|center"
+        android:padding="@dimen/story_padding"
+        android:textAppearance="@style/StoryInterestTextAppearance" />
+</LinearLayout>

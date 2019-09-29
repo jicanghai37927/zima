@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#ffffbb00</color>
+    <color name="primary_color_dark">#fff99f00</color>
+    <color name="accent_color">#ff333333</color>
+    <color name="default_background_color">#ffe6e6e6</color>
+    <color name="cursor_color">#96000000</color>
+    <color name="hint_text_color">#4d000000</color>
+    <color name="material_gray">#8a000000</color>
+    <color name="action_mode_background_color">#ffffffff</color>
+    <color name="action_bar_text_color">#ffffffff</color>
+    <color name="bottom_sheet_hightlight_grey">#0f000000</color>
+    <color name="toolbar_shadow_start_color">#33000000</color>
+    <color name="checked_list_item_color">#4d000000</color>
+    <color name="primary_text_color">#de000000</color>
+    <color name="notification_story_title_color">#ffcccccc</color>
+    <color name="story_photo_credit_background_color">#80000000</color>
+
+    <color name="composer_paragraph_background_color">#00000000</color>
+    <color name="composer_separate_background_color">#00000000</color>
+    <color name="composer_paragraph_format_item_title_color">#00000000</color>
+
+</resources>

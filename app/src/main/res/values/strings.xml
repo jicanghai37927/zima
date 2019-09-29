@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">zima</string>
+
+
+    <string name="btn_separate">分割线</string>
+    <string name="btn_picture">图片</string>
+    <string name="btn_close">关闭</string>
+    <string name="btn_edit">编辑</string>
+    <string name="btn_format">格式化</string>
+
+    <string name="btn_highlight">重点</string>
+    <string name="btn_bold">B</string>
+    <string name="btn_italic">I</string>
+    <string name="btn_underline">U</string>
+    <string name="btn_strikethrough">S</string>
+
+    <string name="note_body_hint">记事</string>
+    <string name="style_bold"><b>B</b></string>
+    <string name="style_italic"><i>I</i></string>
+    <string name="style_underline"><u>U</u></string>
+    <string name="style_strikethrough"><S>S</S></string>
+
+    <string name="default_system_font_name">系统默认字体</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="story_expand_description">Show more</string>
+    <string name="interest_action_positive">Yes, I am interested</string>
+    <string name="interest_action_negative">Not interested</string>
+    <string name="story_photo_description">Article photo</string>
+    <string name="section_header_menu_description">Section options</string>
+
+</resources>

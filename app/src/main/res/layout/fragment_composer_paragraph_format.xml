@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/primary_color"
+        android:elevation="1.0dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/ToolbarTitleStyle"
+            android:text="文本" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/composer_paragraph_format_separate_size"
+        android:paddingTop="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

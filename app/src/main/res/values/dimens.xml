@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="composer_bottom_bar_size">48dp</dimen>
+    <dimen name="composer_bottom_sheet_size">320dp</dimen>
+
+    <dimen name="composer_list_view_padding_top">10dp</dimen>
+    <dimen name="composer_list_view_padding_bottom">10dp</dimen>
+
+    <dimen name="composer_list_item_padding_top">2dp</dimen>
+    <dimen name="composer_list_item_padding_left">10dp</dimen>
+    <dimen name="composer_list_item_padding_right">10dp</dimen>
+    <dimen name="composer_list_item_padding_bottom">10dp</dimen>
+    <dimen name="composer_list_card_elevation">1dp</dimen>
+    <dimen name="composer_list_card_corner_radius">2dp</dimen>
+    <dimen name="composer_list_padding">6dp</dimen>
+
+    <dimen name="composer_paragraph_item_padding_top">2dp</dimen>
+    <dimen name="composer_paragraph_item_padding_left">10dp</dimen>
+    <dimen name="composer_paragraph_item_padding_right">10dp</dimen>
+    <dimen name="composer_paragraph_item_padding_bottom">1dp</dimen>
+    <dimen name="composer_paragraph_card_elevation">0dp</dimen>
+    <dimen name="composer_paragraph_card_corner_radius">2dp</dimen>
+    <dimen name="composer_paragraph_padding">6dp</dimen>
+
+    <dimen name="composer_picture_item_padding_top">2dp</dimen>
+    <dimen name="composer_picture_item_padding_left">10dp</dimen>
+    <dimen name="composer_picture_item_padding_right">10dp</dimen>
+    <dimen name="composer_picture_item_padding_bottom">1dp</dimen>
+    <dimen name="composer_picture_card_elevation">0dp</dimen>
+    <dimen name="composer_picture_card_corner_radius">2dp</dimen>
+    <dimen name="composer_picture_padding">6dp</dimen>
+
+    <dimen name="composer_separate_item_padding_top">2dp</dimen>
+    <dimen name="composer_separate_item_padding_left">10dp</dimen>
+    <dimen name="composer_separate_item_padding_right">10dp</dimen>
+    <dimen name="composer_separate_item_padding_bottom">1dp</dimen>
+    <dimen name="composer_separate_card_elevation">0dp</dimen>
+    <dimen name="composer_separate_card_corner_radius">2dp</dimen>
+    <dimen name="composer_separate_padding">6dp</dimen>
+
+    <dimen name="composer_paragraph_format_separate_size">22dp</dimen>
+    <dimen name="composer_paragraph_format_item_padding">12dp</dimen>
+    <dimen name="composer_paragraph_format_item_paragraph_size">64dp</dimen>
+    <dimen name="composer_paragraph_format_item_size">42dp</dimen>
+    <dimen name="composer_paragraph_format_item_title_size">12sp</dimen>
+    <dimen name="composer_paragraph_format_item_name_size">16sp</dimen>
+    <dimen name="composer_paragraph_format_item_value_size">16sp</dimen>
+
+    <dimen name="color_panel_padding">18dp</dimen>
+    <dimen name="color_panel_width">84dp</dimen>
+    <dimen name="color_panel_height">168dp</dimen>
+
+    <dimen name="font_item_check_size">48dp</dimen>
+
+    <dimen name="bottom_sheet_bar_height">48.0dip</dimen>
+    <dimen name="default_shadow_height">4.0dip</dimen>
+    <dimen name="list_details_content_padding">14.0dip</dimen>
+    <dimen name="list_details_list_item_text_bottom_padding">6.0dip</dimen>
+
+
+    <dimen name="qeb_size">48.0dip</dimen>
+    <dimen name="qeb_vertical_margin">0.0dip</dimen>
+    <dimen name="qeb_horizontal_margin">0.0dip</dimen>
+    <dimen name="qeb_text_size">16.0sp</dimen>
+    <dimen name="qeb_text_horizontal_padding">16.0dip</dimen>
+
+    <dimen name="browse_grid_start_margin">4.0dip</dimen>
+    <dimen name="browse_grid_vertical_margin">4.0dip</dimen>
+    <dimen name="browse_grid_end_margin">6.0dip</dimen>
+    <dimen name="qeb_bottom_height">48.0dip</dimen>
+
+    <dimen name="item_collapsed_margin">8.0dip</dimen>
+    <dimen name="story_padding">12.0dip</dimen>
+    <dimen name="story_photo_size_collapsed">80.0dip</dimen>
+    <dimen name="story_photo_margin">4.0dip</dimen>
+    <dimen name="touch_target_min_size">48.0dip</dimen>
+    <dimen name="item_padding">16.0dip</dimen>
+    <dimen name="story_child_padding">4.0dip</dimen>
+    <dimen name="super_tiny_font_size">11.0sp</dimen>
+    <dimen name="tiny_font_size">12.0sp</dimen>
+    <dimen name="medium_font_size">16.0sp</dimen>
+    <dimen name="story_photo_credit_height">14.0dip</dimen>
+    <dimen name="story_photo_credit_padding">2.0dip</dimen>
+    <dimen name="card_item_vertical_offset">8.0dip</dimen>
+    <dimen name="section_headline_left_padding">16.0dip</dimen>
+    <dimen name="item_drawable_padding">8.0dip</dimen>
+    <dimen name="section_content_side_padding">0.0dip</dimen>
+    <dimen name="digest_card_margin_top">10.0dip</dimen>
+    <dimen name="divider_size">1.0dip</dimen>
+
+</resources>

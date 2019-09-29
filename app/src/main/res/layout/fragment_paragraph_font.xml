@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".composer.ParagraphFontFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/primary_color"
+        android:elevation="1.0dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/ToolbarTitleStyle"
+            android:text="字体" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

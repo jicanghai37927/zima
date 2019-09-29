@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".test.TestAlignmentActivity">
+
+    <com.haiyunshan.zima.composer.widget.ParagraphEditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="酬乐天咏老见示\n唐代：刘禹锡\n人谁不顾老，老去有谁怜。身瘦带频减，发稀冠自偏。废书缘惜眼，多灸为随年。经事还谙事，阅人如阅川。细思皆幸矣，下此便翛然。莫道桑榆晚，为霞尚满天。"
+        android:textAlignment="textStart"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btn_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试" />
+</LinearLayout>

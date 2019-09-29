@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FormatItem"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+    <CheckedTextView
+        android:id="@+id/btn_bold"
+        style="@style/FormatItemStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:saveEnabled="false"
+        android:text="@string/style_bold" />
+
+    <CheckedTextView
+        android:id="@+id/btn_italic"
+        style="@style/FormatItemStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:saveEnabled="false"
+        android:text="@string/style_italic" />
+
+    <CheckedTextView
+        android:id="@+id/btn_underline"
+        style="@style/FormatItemStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:saveEnabled="false"
+        android:text="@string/style_underline"
+        android:textStyle="normal" />
+
+    <CheckedTextView
+        android:id="@+id/btn_strikethrough"
+        style="@style/FormatItemStyle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:saveEnabled="false"
+        android:text="@string/style_strikethrough" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/composer_separate_item_padding_bottom"
+    android:paddingLeft="@dimen/composer_separate_item_padding_left"
+    android:paddingRight="@dimen/composer_separate_item_padding_right"
+    android:paddingTop="@dimen/composer_separate_item_padding_top">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/composer_separate_card_elevation"
+        app:cardBackgroundColor="@color/composer_separate_background_color"
+        app:cardCornerRadius="@dimen/composer_separate_card_corner_radius">
+
+        <ImageView
+            android:id="@+id/iv_separate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_separator"/>
+
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

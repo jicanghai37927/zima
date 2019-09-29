@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="highlight" />
+    <item type="id" name="bold" />
+    <item type="id" name="italic" />
+    <item type="id" name="underline" />
+    <item type="id" name="strikethrough" />
+</resources>

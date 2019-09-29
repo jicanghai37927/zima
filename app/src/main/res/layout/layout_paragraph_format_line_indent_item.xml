@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FormatItem"
+    android:layout_width="match_parent"
+    android:clickable="false">
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/FormatItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="首行缩进" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Switch
+        android:id="@+id/btn_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

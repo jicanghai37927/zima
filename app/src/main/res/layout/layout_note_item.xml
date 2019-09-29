@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/item_collapsed_margin"
+    android:layout_marginRight="@dimen/item_collapsed_margin"
+    android:columnCount="5"
+    android:rowCount="5">
+
+    <Space
+        android:layout_width="@dimen/story_padding"
+        android:layout_height="0.0dip"
+        android:layout_column="0"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="0"
+        android:layout_rowSpan="5" />
+
+    <include
+        android:id="@+id/story_topic_large_image"
+        layout="@layout/story_topic"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill_horizontal|bottom|center"
+        android:layout_marginTop="@dimen/story_padding"
+        android:layout_row="0" />
+
+    <include
+        android:id="@+id/story_large_image"
+        layout="@layout/story_large_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal|bottom|center"
+        android:layout_marginTop="@dimen/story_padding"
+        android:layout_row="1" />
+
+    <include
+        layout="@layout/story_photo"
+        android:layout_width="@dimen/story_photo_size_collapsed"
+        android:layout_height="@dimen/story_photo_size_collapsed"
+        android:layout_column="1"
+        android:layout_gravity="top"
+        android:layout_marginRight="@dimen/story_photo_margin"
+        android:layout_marginTop="@dimen/story_padding"
+        android:layout_row="2"
+        android:layout_rowSpan="2" />
+
+    <include
+        layout="@layout/story_title"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginTop="@dimen/story_padding"
+        android:layout_row="2" />
+
+    <include
+        layout="@layout/story_source"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal|center|top"
+        android:layout_row="3" />
+
+    <include
+        layout="@layout/story_interest"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill_horizontal|bottom|center"
+        android:layout_row="4" />
+
+    <Space
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/story_padding"
+        android:layout_column="0"
+        android:layout_columnSpan="5"
+        android:layout_gravity="fill_horizontal|bottom|center"
+        android:layout_row="4" />
+
+    <Space
+        android:layout_width="@dimen/story_padding"
+        android:layout_height="0.0dip"
+        android:layout_column="4"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="0"
+        android:layout_rowSpan="5" />
+
+    <include
+        android:id="@+id/story_expand_more"
+        layout="@layout/expand_more_imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_columnSpan="2"
+        android:layout_gravity="bottom"
+        android:layout_row="2"
+        android:layout_rowSpan="3" />
+</GridLayout>
